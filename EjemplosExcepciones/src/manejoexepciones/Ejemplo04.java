@@ -15,7 +15,7 @@ import java.util.Scanner;
 public class Ejemplo04 {
 
     public static void main(String[] args) {
-        
+
         try {
             Scanner entrada = new Scanner(System.in);
             System.out.println("Ingrese valor 1:");
@@ -29,8 +29,13 @@ public class Ejemplo04 {
 
             System.out.printf("Existe un error de tipo %s\n",
                     inputMismatchException);
-        }
-        
+        } //catch (ArithmeticException arithmeticException) {
+
+          //System.out.printf("Existe un error de tipo %s\n",
+                  //arithmeticException);
+
+        //}
+
         System.out.println("Continuamos");
 
     }

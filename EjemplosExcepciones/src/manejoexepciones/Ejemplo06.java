@@ -7,6 +7,7 @@ package manejoexepciones;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
+import java.util.IllegalFormatConversionException;
 
 /**
  *
@@ -35,6 +36,11 @@ public class Ejemplo06 {
             System.out.println("Lo sentimos hay un error");
             System.out.printf("De tipo %s\n", arithmeticException);
         
+        }
+        catch(IllegalFormatConversionException a){
+            System.out.println("Lo sentimos hay un error");
+            System.out.printf("De tipo %s\n", a);
+            
         }
                
     }
